@@ -555,6 +555,9 @@ body
     float:right;	
 	display:inline;
 	}
+	.fot{
+		border-top:1px solid gray;
+	}
 		
 }
 
