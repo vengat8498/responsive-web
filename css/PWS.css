@@ -1,7 +1,7 @@
 /*gobal*/
 body 
 {
-  background-color: #f2f2f2;
+  background:linear-gradient(#9fa4c4 , #b3cdd1);
   margin:0;
 }
 .wrapper
@@ -15,26 +15,29 @@ body
   display: block;
   margin:0 auto;
   margin-top:30px;
-  width: 70%;
-  height:200px;
+  width: 85%;
+  height:350px;
 }
 .wrapper h1
 {
 	font-size:35px;
+	color:block;
 }
 .wrapper .tt
 {
 	font-family: 'Signika Negative', sans-serif;
-	color:#5390c9;
+	color:black;
 	padding-bottom:10px;
-	border-bottom:1px solid gray;
-	font-size:15px;
+	border-bottom:1px solid black;
+	font-size:17px;
+	font-weight:bold;
 }
 .wrapper .t
 {
 	font-family: 'Signika Negative', sans-serif;
-	font-size:15px;
-	color:#5390c9;
+	font-size:17px;
+	color:bloack;
+	font-weight:bold;
 }
 .par
 {
@@ -43,14 +46,23 @@ body
 	font-size:14px;
 	line-height:20px;
 	text-align:left;
+	color:block;
 }
 .wrapper button
 {
 	width:90px;
-	height:25px;
+	height:28px;
 	border-radius:15px;
-	background-color:#5390c9;
+	background-color:#edfff2;
 	border:none;
+	color:block;
+	margin-bottom:50px;
+	text-decoration:none;
+}
+.wrapper a
+{
+	text-decoration:none;
+	font-weight:bold;
 }
 .bio
 {
@@ -62,8 +74,9 @@ body
 	
 	text-align:left;
 	font-family: 'Source Sans Pro', sans-serif;
-	border-bottom:1px solid gray;
-	font-size:17px;
+	border-bottom:1px solid black;
+	font-size:20px;
+	color:block;
 }
 .bio p
 {
@@ -72,29 +85,31 @@ body
 	font-size:14px;
 	line-height:20px;
 	text-align:left;
+	color:block;
 }
 .exx
  {
   display: block;
   margin:0 auto;
-  width: 50%;
-  height:150px;
+  width: 60%;
+  height:200px;
   margin-bottom:33px;
+   margin-top:33px;
 }
 .tab
 {
     width:90%;
 	margin:0 auto;
+	padding-bottom:50px;
 }
 .tab th
 {
 	font-family:arial;
 	font-style:normal;
 	font-size:14px;
-	line-height:20px;
+	line-height:35px;
 	text-align:left;
-	padding-right:25px;
-	padding-right:10px;
+	padding-right:50px;
 }
 .tab td
 {
@@ -113,14 +128,15 @@ body
 {
 	text-align:center;
 	font-family: 'Source Sans Pro', sans-serif;
-	border-bottom:1px solid gray;
+	border-bottom:1px solid black;
+	font-size:15px;
 }
 .sh
 {
 	text-align:left;
 	font-family: 'Source Sans Pro', sans-serif;
-	border-bottom:1px solid gray;
-	font-size:17px;
+	border-bottom:1px solid black;
+	font-size:20px;
 }
 	
 .s1
@@ -131,8 +147,10 @@ body
 	font-style:normal;
 	font-size:14px;
 	line-height:20px;
-	text-align:left;
+	text-align:center;
 	padding-top:40px;
+	color:block;
+	padding-bottom:50px;
 
 }
 .s2
@@ -143,7 +161,9 @@ body
 	font-style:normal;
 	font-size:14px;
 	line-height:20px;
-	text-align:left;
+	text-align:center;
+	color:block;
+	padding-bottom:50px;
 }
 .s3
 {
@@ -153,7 +173,9 @@ body
 	font-style:normal;
 	font-size:14px;
 	line-height:20px;
-	text-align:left;
+	text-align:center;
+	color:block;
+	padding-bottom:50px;
 }
 .s4
 {
@@ -163,7 +185,9 @@ body
 	font-style:normal;
 	font-size:14px;
 	line-height:20px;
-	text-align:left;
+	text-align:center;
+	color:block;
+	padding-bottom:50px;
 }
 .s5
 {
@@ -173,7 +197,9 @@ body
 	font-style:normal;
 	font-size:14px;
 	line-height:20px;
-	text-align:left;
+	text-align:center;
+	color:block;
+	padding-bottom:50px;
 }
 .s6
 {
@@ -183,8 +209,9 @@ body
 	font-style:normal;
 	font-size:14px;
 	line-height:20px;
-	text-align:left;
-	padding-bottom:40px;
+	text-align:center;
+	padding-bottom:50px;
+	color:block;
 }
 .fa-bezier-curve
 {
@@ -196,7 +223,7 @@ body
 	border-radius: 50px 50px 50px;
 	border:1px solid;
 	padding:20px;
-	background-color:#cadbce;
+	background-color:#edfff2;
 }
 .fa-folder-minus
 {
@@ -208,7 +235,7 @@ body
 	border-radius: 50px 50px 50px;
 	border:1px solid;
 	padding:20px;
-	background-color:#cadbce;
+	background-color:#edfff2;
 }
 .fa-layer-group
 {
@@ -220,7 +247,7 @@ body
 	border-radius: 50px 50px 50px;
 	border:1px solid;
 	padding:20px;
-	background-color:#cadbce;
+	background-color:#edfff2;
 }
 .fot
 {
@@ -301,7 +328,8 @@ body
 		font-family:'Baloo Tammudu 2', cursive;
 		margin:30px 10px;
 		font-size:25px;
-		border-bottom:1px solid gray;
+		padding-bottom:20px;
+		border-bottom:1px solid black;
 		font-weight:580;
 	}
 	.bio p
@@ -312,16 +340,16 @@ body
 	}
 	.exx
 	{
-		width:40%;
-		height:400px;
+		width:37%;
+		height:350px;
 		margin:40px 60px;
 		/*background-color:green;*/
 		display:inline;
 	}
 	.tab
 	{
-		margin:40px 0px;
-		width:50%;
+		margin:0px 0px;
+		width:43%;
 		display:inline;
 		float:right;
 		/*background-color:red;*/
@@ -333,35 +361,36 @@ body
 	{
 		padding-left:40px;
 		text-align:left;
-		line-height: 58px;
+		line-height: 54px;
 	}
 	.tab td
 	{
 		text-align:center-right;
 		padding-left:30px;
-		line-height: 58px;
+		line-height: 54px;
 	}
 	.ser
 	{
 		width:100%;
 		margin:0 auto;
-		height:1020px;
+		height:1080px;
 	} 
 	.ser h4
     {
 		font-family:'Baloo Tammudu 2', cursive;
 		margin:30px 10px;
 		font-size:25px;
-		padding-bottom:20px;
-		border-bottom:1px solid gray;
+		padding-bottom:30px;
+		border-bottom:1px solid block;
 		font-weight:580;
 	}
 	.sh
     {
 		font-family:'Baloo Tammudu 2', cursive;
 		margin:30px 10px;
+		padding-bottom:30px;
 		font-size:25px;
-		border-bottom:1px solid gray;
+		border-bottom:1px solid black;
 		font-weight:580;
 	}
 	.s1
@@ -375,7 +404,7 @@ body
     }
 	.s2
     {
-	margin: 15px 35px;
+	margin: 15px;
 	width:30%;
 	height:400px;
 	float:left;
@@ -401,7 +430,7 @@ body
     }
 	.s5
     {
-	margin: 15px 35px;
+	margin: 15px;
 	width:30%;
 	height:400px;
 	/*background-color:red;*/
@@ -528,4 +557,10 @@ body
 	}
 		
 }
+
+
+
+/*tab*/
+
+
 
