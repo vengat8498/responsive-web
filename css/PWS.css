@@ -253,7 +253,6 @@ body
 {
 	width:100%;
 	height:50px;
-	border-top:1px solid gray;
 }
 .p1
 {
@@ -555,9 +554,7 @@ body
     float:right;	
 	display:inline;
 	}
-	.fot{
-		border-top:1px solid gray;
-	}
+	
 		
 }
 
