@@ -92,8 +92,8 @@ body
  {
   display: block;
   margin:0 auto;
-  width: 60%;
-  height:200px;
+  width: 90%;
+  height:400px;
   margin-bottom:33px;
    margin-top:33px;
 }
@@ -341,8 +341,8 @@ body
 	}
 	.exx
 	{
-		width:37%;
-		height:350px;
+		width:40%;
+		height:400px;
 		margin:40px 60px;
 		/*background-color:green;*/
 		display:inline;
@@ -565,6 +565,9 @@ body
 
 
 /*tab*/
+
+
+
 
 
 
